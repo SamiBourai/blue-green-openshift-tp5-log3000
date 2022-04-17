@@ -12,7 +12,7 @@ function start(response) {
         'content="text/html; charset=UTF-8" />'+
         '</head>'+
         '<body>'+
-        '<canvas id="myCanvas" width="578" height="200"></canvas>'+
+        '<canvas id="myCanvas" width="578" height="240"></canvas>'+
         '<script>'+
         'var canvas = document.getElementById("myCanvas");'+
         'var context = canvas.getContext("2d");'+
@@ -21,7 +21,7 @@ function start(response) {
         'var radius = 70;'+
         'context.beginPath();'+
         'context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);'+
-        'context.fillStyle = "blue";'+
+        'context.fillStyle = "green";'+
         'context.fill();'+
         'context.lineWidth = 5;'+
         'context.strokeStyle = "#003300";'+
